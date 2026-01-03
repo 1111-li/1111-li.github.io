@@ -1,0 +1,838 @@
+
+
+<!DOCTYPE html>
+<html lang="zh-CN" data-default-color-scheme=auto>
+
+
+
+<head>
+  <meta charset="UTF-8">
+
+  <link rel="apple-touch-icon" sizes="76x76" href="/img/fluid.png">
+  <link rel="icon" href="/img/fluid.png">
+  
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  
+  <meta name="theme-color" content="#2f4154">
+  <meta name="author" content="LEE">
+  <meta name="keywords" content="">
+  
+    <meta name="description" content="作品集这里是我的一些代表性作品，包括开源项目、个人网站、设计作品和技术工具。  .portfolio-grid {   display: grid;   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));   gap: 24px;   margin: 32px 0; }  .portfolio-card {   backgro">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Portfolio">
+<meta property="og:url" content="https://1111-li.github.io/portfolio/index.html">
+<meta property="og:site_name" content="LEE&#39;s Blog">
+<meta property="og:description" content="作品集这里是我的一些代表性作品，包括开源项目、个人网站、设计作品和技术工具。  .portfolio-grid {   display: grid;   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));   gap: 24px;   margin: 32px 0; }  .portfolio-card {   backgro">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://1111-li.github.io/img/portfolio/react-components.jpg">
+<meta property="og:image" content="https://1111-li.github.io/img/portfolio/node-api.jpg">
+<meta property="og:image" content="https://1111-li.github.io/img/portfolio/mobile-app.jpg">
+<meta property="og:image" content="https://1111-li.github.io/img/portfolio/brand-design.jpg">
+<meta property="og:image" content="https://1111-li.github.io/img/portfolio/ui-design.jpg">
+<meta property="og:image" content="https://1111-li.github.io/img/portfolio/excel-template.jpg">
+<meta property="og:image" content="https://1111-li.github.io/img/portfolio/ai-tool.jpg">
+<meta property="article:published_time" content="2026-01-03T04:34:52.925Z">
+<meta property="article:modified_time" content="2026-01-03T04:34:52.925Z">
+<meta property="article:author" content="LEE">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://1111-li.github.io/img/portfolio/react-components.jpg">
+  
+  
+  
+  <title>Portfolio - LEE&#39;s Blog</title>
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
+
+
+
+
+
+<!-- 主题依赖的图标库，不要自行修改 -->
+<!-- Do not modify the link that theme dependent icons -->
+
+<link rel="stylesheet" href="//at.alicdn.com/t/c/font_1749284_5i9bdhy70f8.css">
+
+
+
+<link rel="stylesheet" href="//at.alicdn.com/t/c/font_1736178_k526ubmyhba.css">
+
+
+<link  rel="stylesheet" href="/css/main.css" />
+
+
+  <link id="highlight-css" rel="stylesheet" href="/css/highlight.css" />
+  
+    <link id="highlight-css-dark" rel="stylesheet" href="/css/highlight-dark.css" />
+  
+
+
+
+
+  <script id="fluid-configs">
+    var Fluid = window.Fluid || {};
+    Fluid.ctx = Object.assign({}, Fluid.ctx)
+    var CONFIG = {"hostname":"1111-li.github.io","root":"/","version":"1.9.8","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"placement":"right","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":false,"follow_dnt":true,"baidu":null,"google":{"measurement_id":null},"tencent":{"sid":null,"cid":null},"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false},"umami":{"src":null,"website_id":null,"domains":null,"start_time":"2024-01-01T00:00:00.000Z","token":null,"api_server":null}},"search_path":"/local-search.xml","include_content_in_search":true};
+
+    if (CONFIG.web_analytics.follow_dnt) {
+      var dntVal = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;
+      Fluid.ctx.dnt = dntVal && (dntVal.startsWith('1') || dntVal.startsWith('yes') || dntVal.startsWith('on'));
+    }
+  </script>
+  <script  src="/js/utils.js" ></script>
+  <script  src="/js/color-schema.js" ></script>
+  
+
+
+  
+<meta name="generator" content="Hexo 8.1.1"></head>
+
+
+<body>
+  
+
+  <header>
+    
+
+<div class="header-inner" style="height: 60vh;">
+  <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
+  <div class="container">
+    <a class="navbar-brand" href="/">
+      <strong>LEE&#39;s Blog</strong>
+    </a>
+
+    <button id="navbar-toggler-btn" class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <div class="animated-icon"><span></span><span></span><span></span></div>
+    </button>
+
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto text-center">
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/" target="_self">
+                <i class="iconfont icon-home-fill"></i>
+                <span>首页</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/categories/" target="_self">
+                <i class="iconfont icon-category-fill"></i>
+                <span>分类</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/portfolio/" target="_self">
+                <i class="iconfont icon-pen"></i>
+                <span>作品集</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/hobbies/" target="_self">
+                <i class="iconfont icon-bilibili"></i>
+                <span>兴趣爱好</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/about/" target="_self">
+                <i class="iconfont icon-user-fill"></i>
+                <span>关于</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/resume/" target="_self">
+                <i class="iconfont icon-addrcard"></i>
+                <span>简历</span>
+              </a>
+            </li>
+          
+        
+        
+          <li class="nav-item" id="search-btn">
+            <a class="nav-link" target="_self" href="javascript:;" data-toggle="modal" data-target="#modalSearch" aria-label="Search">
+              <i class="iconfont icon-search"></i>
+            </a>
+          </li>
+          
+        
+        
+          <li class="nav-item" id="color-toggle-btn">
+            <a class="nav-link" target="_self" href="javascript:;" aria-label="Color Toggle">
+              <i class="iconfont icon-dark" id="color-toggle-icon"></i>
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+  
+
+<div id="banner" class="banner" parallax=true
+     style="background: url('/img/default.png') no-repeat center center; background-size: cover;">
+  <div class="full-bg-img">
+    <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
+      <div class="banner-text text-center fade-in-up">
+        <div class="h2">
+          
+            <span id="subtitle" data-typed-text="Portfolio"></span>
+          
+        </div>
+
+        
+      </div>
+
+      
+    </div>
+  </div>
+</div>
+
+</div>
+
+  </header>
+
+  <main>
+    
+      <div class="container nopadding-x-md">
+        <div id="board"
+          >
+          
+          <div class="container">
+            <div class="row">
+              <div class="col-12 col-md-10 m-auto">
+                
+
+<article class="page-content">
+  <h1 id="作品集"><a href="#作品集" class="headerlink" title=" 作品集"></a><i class="iconfont icon-project"></i> 作品集</h1><p>这里是我的一些代表性作品，包括开源项目、个人网站、设计作品和技术工具。</p>
+<style>
+.portfolio-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 24px;
+  margin: 32px 0;
+}
+
+.portfolio-card {
+  background: var(--card-bg, #fff);
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.portfolio-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.15);
+}
+
+.portfolio-image {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 3rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.portfolio-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.portfolio-card:hover .portfolio-image img {
+  transform: scale(1.05);
+}
+
+.portfolio-content {
+  padding: 20px;
+}
+
+.portfolio-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: var(--text-color, #1f2937);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.project-type {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 12px;
+  font-size: 0.75rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.type-web { background: #dbeafe; color: #1e40af; }
+.type-app { background: #dcfce7; color: #166534; }
+.type-design { background: #fef3c7; color: #92400e; }
+.type-tool { background: #f3e8ff; color: #7c3aed; }
+.type-ai { background: #fee2e2; color: #dc2626; }
+
+.portfolio-description {
+  color: var(--text-light, #6b7280);
+  font-size: 0.9rem;
+  line-height: 1.5;
+  margin-bottom: 16px;
+}
+
+.portfolio-tech {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 16px;
+}
+
+.tech-tag {
+  background: var(--board-color, #f8fafc);
+  color: var(--text-color, #374151);
+  padding: 4px 8px;
+  border-radius: 6px;
+  font-size: 0.75rem;
+  font-weight: 500;
+  border: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+.portfolio-links {
+  display: flex;
+  gap: 12px;
+  margin-top: 16px;
+}
+
+.portfolio-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.link-demo {
+  background: var(--link, #3b82f6);
+  color: white;
+}
+
+.link-demo:hover {
+  background: #2563eb;
+  transform: translateY(-1px);
+}
+
+.link-code {
+  background: var(--board-color, #f8fafc);
+  color: var(--text-color, #374151);
+  border: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+.link-code:hover {
+  background: var(--text-color, #374151);
+  color: white;
+}
+
+.link-preview {
+  background: #f59e0b;
+  color: white;
+}
+
+.link-preview:hover {
+  background: #d97706;
+  transform: translateY(-1px);
+}
+
+.portfolio-stats {
+  display: flex;
+  gap: 16px;
+  font-size: 0.8rem;
+  color: var(--text-muted, #9ca3af);
+  margin-top: 12px;
+}
+
+.stat-item {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+@media (max-width: 768px) {
+  .portfolio-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .portfolio-card:hover {
+    transform: translateY(-4px);
+  }
+}
+</style>
+
+
+
+<h2 id="开源项目"><a href="#开源项目" class="headerlink" title="开源项目"></a>开源项目</h2><div class="portfolio-grid">
+
+  <!-- 项目1: React 组件库 -->
+  <a class="portfolio-card" href="https://github.com/yourname/react-components" target="_blank" rel="noopener noreferrer">
+    <div class="portfolio-image">
+      <img src="/img/portfolio/react-components.jpg" srcset="/img/loading.gif" lazyload alt="React Components Library" onerror="this.style.display='none'; this.parentElement.innerHTML='<i class=\"iconfont icon-code\"></i>'">
+    </div>
+    <div class="portfolio-content">
+      <div class="portfolio-title">
+        <span class="project-type type-web">Web</span>
+        React UI Components
+      </div>
+      <div class="portfolio-description">
+        一个现代化的 React 组件库，包含 50+ 个可复用组件，支持 TypeScript、主题定制和无障碍访问。
+      </div>
+      <div class="portfolio-tech">
+        <span class="tech-tag">React</span>
+        <span class="tech-tag">TypeScript</span>
+        <span class="tech-tag">SCSS</span>
+        <span class="tech-tag">Storybook</span>
+      </div>
+      <div class="portfolio-links">
+        <span class="portfolio-link link-demo">
+          <i class="iconfont icon-link"></i> 演示
+        </span>
+        <span class="portfolio-link link-code">
+          <i class="iconfont icon-github-fill"></i> 源码
+        </span>
+      </div>
+      <div class="portfolio-stats">
+        <span class="stat-item">
+          <i class="iconfont icon-star"></i> 156
+        </span>
+        <span class="stat-item">
+          <i class="iconfont icon-fork"></i> 28
+        </span>
+        <span class="stat-item">
+          <i class="iconfont icon-time"></i> 2024
+        </span>
+      </div>
+    </div>
+  </a>
+
+  <!-- 项目2: Node.js API 框架 -->
+  <a class="portfolio-card" href="https://github.com/yourname/node-api-framework" target="_blank" rel="noopener noreferrer">
+    <div class="portfolio-image">
+      <img src="/img/portfolio/node-api.jpg" srcset="/img/loading.gif" lazyload alt="Node.js API Framework" onerror="this.style.display='none'; this.parentElement.innerHTML='<i class=\"iconfont icon-server\"></i>'">
+    </div>
+    <div class="portfolio-content">
+      <div class="portfolio-title">
+        <span class="project-type type-web">Backend</span>
+        Express API Framework
+      </div>
+      <div class="portfolio-description">
+        轻量级 Node.js API 框架，内置身份验证、数据库 ORM、中间件和自动文档生成功能。
+      </div>
+      <div class="portfolio-tech">
+        <span class="tech-tag">Node.js</span>
+        <span class="tech-tag">Express</span>
+        <span class="tech-tag">MongoDB</span>
+        <span class="tech-tag">JWT</span>
+      </div>
+      <div class="portfolio-links">
+        <span class="portfolio-link link-demo">
+          <i class="iconfont icon-link"></i> API 文档
+        </span>
+        <span class="portfolio-link link-code">
+          <i class="iconfont icon-github-fill"></i> 源码
+        </span>
+      </div>
+      <div class="portfolio-stats">
+        <span class="stat-item">
+          <i class="iconfont icon-star"></i> 89
+        </span>
+        <span class="stat-item">
+          <i class="iconfont icon-fork"></i> 15
+        </span>
+        <span class="stat-item">
+          <i class="iconfont icon-time"></i> 2024
+        </span>
+      </div>
+    </div>
+  </a>
+
+  <!-- 项目3: 移动端应用 -->
+  <a class="portfolio-card" href="https://github.com/yourname/mobile-app" target="_blank" rel="noopener noreferrer">
+    <div class="portfolio-image">
+      <img src="/img/portfolio/mobile-app.jpg" srcset="/img/loading.gif" lazyload alt="Mobile App" onerror="this.style.display='none'; this.parentElement.innerHTML='<i class=\"iconfont icon-mobile\"></i>'">
+    </div>
+    <div class="portfolio-content">
+      <div class="portfolio-title">
+        <span class="project-type type-app">App</span>
+        校园生活助手
+      </div>
+      <div class="portfolio-description">
+        集课程表、成绩查询、校园资讯为一体的移动应用，提升学生校园生活效率。
+      </div>
+      <div class="portfolio-tech">
+        <span class="tech-tag">React Native</span>
+        <span class="tech-tag">Expo</span>
+        <span class="tech-tag">Firebase</span>
+        <span class="tech-tag">AsyncStorage</span>
+      </div>
+      <div class="portfolio-links">
+        <span class="portfolio-link link-preview">
+          <i class="iconfont icon-mobile"></i> 下载
+        </span>
+        <span class="portfolio-link link-code">
+          <i class="iconfont icon-github-fill"></i> 源码
+        </span>
+      </div>
+      <div class="portfolio-stats">
+        <span class="stat-item">
+          <i class="iconfont icon-download"></i> 2.1k
+        </span>
+        <span class="stat-item">
+          <i class="iconfont icon-star"></i> 67
+        </span>
+        <span class="stat-item">
+          <i class="iconfont icon-time"></i> 2023
+        </span>
+      </div>
+    </div>
+  </a>
+
+</div>
+
+
+
+<h2 id="设计作品"><a href="#设计作品" class="headerlink" title="设计作品"></a>设计作品</h2><div class="portfolio-grid">
+
+  <!-- 设计1: 品牌设计 -->
+  <a class="portfolio-card" href="/img/portfolio/brand-design.jpg" target="_blank" rel="noopener noreferrer">
+    <div class="portfolio-image">
+      <img src="/img/portfolio/brand-design.jpg" srcset="/img/loading.gif" lazyload alt="Brand Design" onerror="this.style.display='none'; this.parentElement.innerHTML='<i class=\"iconfont icon-palette\"></i>'">
+    </div>
+    <div class="portfolio-content">
+      <div class="portfolio-title">
+        <span class="project-type type-design">Design</span>
+        品牌视觉设计
+      </div>
+      <div class="portfolio-description">
+        为科技初创公司设计的完整品牌视觉系统，包括 Logo、色彩、字体和应用场景设计。
+      </div>
+      <div class="portfolio-tech">
+        <span class="tech-tag">Figma</span>
+        <span class="tech-tag">Illustrator</span>
+        <span class="tech-tag">Photoshop</span>
+        <span class="tech-tag">品牌设计</span>
+      </div>
+      <div class="portfolio-links">
+        <span class="portfolio-link link-preview">
+          <i class="iconfont icon-image"></i> 查看设计
+        </span>
+      </div>
+      <div class="portfolio-stats">
+        <span class="stat-item">
+          <i class="iconfont icon-time"></i> 2024
+        </span>
+      </div>
+    </div>
+  </a>
+
+  <!-- 设计2: UI/UX 设计 -->
+  <a class="portfolio-card" href="/img/portfolio/ui-design.jpg" target="_blank" rel="noopener noreferrer">
+    <div class="portfolio-image">
+      <img src="/img/portfolio/ui-design.jpg" srcset="/img/loading.gif" lazyload alt="UI/UX Design" onerror="this.style.display='none'; this.parentElement.innerHTML='<i class=\"iconfont icon-layout\"></i>'">
+    </div>
+    <div class="portfolio-content">
+      <div class="portfolio-title">
+        <span class="project-type type-design">Design</span>
+        电商平台界面设计
+      </div>
+      <div class="portfolio-description">
+        现代化电商平台的完整界面设计，包括首页、商品详情、购物车和用户中心等关键页面。
+      </div>
+      <div class="portfolio-tech">
+        <span class="tech-tag">Figma</span>
+        <span class="tech-tag">Sketch</span>
+        <span class="tech-tag">UI/UX</span>
+        <span class="tech-tag">原型设计</span>
+      </div>
+      <div class="portfolio-links">
+        <span class="portfolio-link link-preview">
+          <i class="iconfont icon-image"></i> 查看设计稿
+        </span>
+      </div>
+      <div class="portfolio-stats">
+        <span class="stat-item">
+          <i class="iconfont icon-time"></i> 2024
+        </span>
+      </div>
+    </div>
+  </a>
+
+</div>
+
+
+
+<h2 id="工具与模板"><a href="#工具与模板" class="headerlink" title="工具与模板"></a>工具与模板</h2><div class="portfolio-grid">
+
+  <!-- 工具1: Excel 模板 -->
+  <a class="portfolio-card" href="/files/project-management-template.xlsx" target="_blank" rel="noopener noreferrer">
+    <div class="portfolio-image">
+      <img src="/img/portfolio/excel-template.jpg" srcset="/img/loading.gif" lazyload alt="Excel Template" onerror="this.style.display='none'; this.parentElement.innerHTML='<i class=\"iconfont icon-excel\"></i>'">
+    </div>
+    <div class="portfolio-content">
+      <div class="portfolio-title">
+        <span class="project-type type-tool">Tool</span>
+        项目管理 Excel 模板
+      </div>
+      <div class="portfolio-description">
+        功能完整的项目管理模板，包含甘特图、任务分配、进度跟踪和报告生成功能。
+      </div>
+      <div class="portfolio-tech">
+        <span class="tech-tag">Excel</span>
+        <span class="tech-tag">VBA</span>
+        <span class="tech-tag">数据可视化</span>
+        <span class="tech-tag">项目管理</span>
+      </div>
+      <div class="portfolio-links">
+        <span class="portfolio-link link-preview">
+          <i class="iconfont icon-download"></i> 下载模板
+        </span>
+      </div>
+      <div class="portfolio-stats">
+        <span class="stat-item">
+          <i class="iconfont icon-download"></i> 500+
+        </span>
+        <span class="stat-item">
+          <i class="iconfont icon-time"></i> 2024
+        </span>
+      </div>
+    </div>
+  </a>
+
+  <!-- 工具2: AI 工具 -->
+  <a class="portfolio-card" href="https://github.com/yourname/ai-code-review" target="_blank" rel="noopener noreferrer">
+    <div class="portfolio-image">
+      <img src="/img/portfolio/ai-tool.jpg" srcset="/img/loading.gif" lazyload alt="AI Code Review Tool" onerror="this.style.display='none'; this.parentElement.innerHTML='<i class=\"iconfont icon-ai\"></i>'">
+    </div>
+    <div class="portfolio-content">
+      <div class="portfolio-title">
+        <span class="project-type type-ai">AI</span>
+        AI 代码审查助手
+      </div>
+      <div class="portfolio-description">
+        基于 GPT 的智能代码审查工具，能够自动检测代码质量问题并提供改进建议。
+      </div>
+      <div class="portfolio-tech">
+        <span class="tech-tag">Python</span>
+        <span class="tech-tag">OpenAI API</span>
+        <span class="tech-tag">FastAPI</span>
+        <span class="tech-tag">机器学习</span>
+      </div>
+      <div class="portfolio-links">
+        <span class="portfolio-link link-demo">
+          <i class="iconfont icon-link"></i> 在线试用
+        </span>
+        <span class="portfolio-link link-code">
+          <i class="iconfont icon-github-fill"></i> 源码
+        </span>
+      </div>
+      <div class="portfolio-stats">
+        <span class="stat-item">
+          <i class="iconfont icon-star"></i> 234
+        </span>
+        <span class="stat-item">
+          <i class="iconfont icon-fork"></i> 45
+        </span>
+        <span class="stat-item">
+          <i class="iconfont icon-time"></i> 2024
+        </span>
+      </div>
+    </div>
+  </a>
+
+</div>
+
+
+
+<h2 id="即将推出的项目"><a href="#即将推出的项目" class="headerlink" title="即将推出的项目"></a>即将推出的项目</h2><p>::: note info<br>🚧 <strong>开发中项目</strong></p>
+<ul>
+<li><strong>微服务架构模板</strong>: 基于 Docker 和 Kubernetes 的完整微服务脚手架</li>
+<li><strong>个人知识管理系统</strong>: 支持 Markdown、双向链接和知识图谱的可视化知识库</li>
+<li><strong>跨平台桌面应用</strong>: 使用 Tauri 开发的现代化桌面应用框架</li>
+</ul>
+<p><em>这些项目正在积极开发中，敬请期待！</em><br>:::</p>
+<hr>
+<p><em>想要了解更多项目细节或合作开发？欢迎通过 <a href="/about/">关于页面</a> 联系我。</em></p>
+
+
+  
+
+</article>
+
+
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+
+    
+      <a id="scroll-top-button" aria-label="TOP" href="#" role="button">
+        <i class="iconfont icon-arrowup" aria-hidden="true"></i>
+      </a>
+    
+
+    
+      <div class="modal fade" id="modalSearch" tabindex="-1" role="dialog" aria-labelledby="ModalLabel"
+     aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h4 class="modal-title w-100 font-weight-bold">搜索</h4>
+        <button type="button" id="local-search-close" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body mx-3">
+        <div class="md-form mb-5">
+          <input type="text" id="local-search-input" class="form-control validate">
+          <label data-error="x" data-success="v" for="local-search-input">关键词</label>
+        </div>
+        <div class="list-group" id="local-search-result"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+  
+    <div class="footer-content">
+       <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a> <i class="iconfont icon-love"></i> <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>Fluid</span></a> 
+    </div>
+  
+  
+  
+</div>
+
+  </footer>
+
+  <!-- Scripts -->
+  
+  <script  src="https://lib.baomitu.com/nprogress/0.2.0/nprogress.min.js" ></script>
+  <link  rel="stylesheet" href="https://lib.baomitu.com/nprogress/0.2.0/nprogress.min.css" />
+
+  <script>
+    NProgress.configure({"showSpinner":false,"trickleSpeed":100})
+    NProgress.start()
+    window.addEventListener('load', function() {
+      NProgress.done();
+    })
+  </script>
+
+
+<script  src="https://lib.baomitu.com/jquery/3.6.4/jquery.min.js" ></script>
+<script  src="https://lib.baomitu.com/twitter-bootstrap/4.6.1/js/bootstrap.min.js" ></script>
+<script  src="/js/events.js" ></script>
+<script  src="/js/plugins.js" ></script>
+
+
+  <script  src="https://lib.baomitu.com/typed.js/2.0.12/typed.min.js" ></script>
+  <script>
+    (function (window, document) {
+      var typing = Fluid.plugins.typing;
+      var subtitle = document.getElementById('subtitle');
+      if (!subtitle || !typing) {
+        return;
+      }
+      var text = subtitle.getAttribute('data-typed-text');
+      
+        typing(text);
+      
+    })(window, document);
+  </script>
+
+
+
+
+  
+    <script  src="/js/img-lazyload.js" ></script>
+  
+
+
+
+
+  <script  src="/js/local-search.js" ></script>
+
+
+
+
+
+<!-- 主题的启动项，将它保持在最底部 -->
+<!-- the boot of the theme, keep it at the bottom -->
+<script  src="/js/boot.js" ></script>
+
+
+  
+
+  <noscript>
+    <div class="noscript-warning">博客在允许 JavaScript 运行的环境下浏览效果更佳</div>
+  </noscript>
+</body>
+</html>
