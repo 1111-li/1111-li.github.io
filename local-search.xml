@@ -4,11 +4,42 @@
   
   
   <entry>
+    <title>Mascot</title>
+    <link href="/2026/01/04/Mascot/"/>
+    <url>/2026/01/04/Mascot/</url>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>晚上无聊时又去对<a href="https://hexo.io/">Hexo</a>进行了一点了解，发现它还有插件，说实话，我第一眼就看到了这个live2d插件，wtf,谁不想给自己的网站上增加一个看板娘？？？越了解才发现自己只是用了Hexo最基础的快速生成静态网站的基础功能，卧槽了，hexo真有意思啊，还是个开源的工具，感谢各位大佬的无私奉献，开源是人类社会上最伟大的进步之一！</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>随笔</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Mascot</tag>
+      
+      <tag>Live2D</tag>
+      
+      <tag>Widget</tag>
+      
+      <tag>Hexo</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>conclusion</title>
     <link href="/2026/01/04/conclusion/"/>
     <url>/2026/01/04/conclusion/</url>
     
-    <content type="html"><![CDATA[<p>哎，总共耗时约6个小时才完成这个个人博客，从0到1时总令人有成就感，虽然我更多是使用Cursor进行Vibe Coding（bushi）。Vibe Coding是真有意思啊，脑子里天马行空却又不知道怎么实现、需要大量时间才能学会去使用的想法，短短几分钟AI就能给你写出来，太令人惊奇了，现在已经成AI的天下了，以后简历上第一句写入职自带Cursor会员（doge）。</p>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>哎，总共耗时约6个小时才完成这个个人博客，从0到1时总令人有成就感，虽然我更多是使用Cursor进行Vibe Coding（bushi）。Vibe Coding是真有意思啊，脑子里天马行空却又不知道怎么实现、需要大量时间才能学会去使用的想法，短短几分钟AI就能给你写出来，太令人惊奇了，现在已经成AI的天下了，以后简历上第一句写入职自带Cursor会员（doge）。</p>]]></content>
     
     
     <categories>
@@ -39,7 +70,7 @@
     <link href="/2026/01/03/hello-world/"/>
     <url>/2026/01/03/hello-world/</url>
     
-    <content type="html"><![CDATA[<p>这是我个人网站的第一条博客，这个静态网站是基于<a href="https://hexo.io/">Hexo</a>制作的，说实话在此之前我从来没有接触过这个东西，我制作网站只用最简单的、入门级的HTML、CSS、JavaScript，哪怕进阶一点也只是使用了Vue，像Hexo这种写好Markdown文件，就会自动帮你生成带有目录、分类、标签和精美排版的完整网页，甚至能自动帮你部署在Github Pages上，说实话，太新奇了，老师在上课时甚至没有提起过这种玩意，好用！以后我估计会花更多的空余时间在研究这些新奇的东西上，太有意思了。</p>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>这是我个人网站的第一条博客，这个静态网站是基于<a href="https://hexo.io/">Hexo</a>制作的，说实话在此之前我从来没有接触过这个东西，我制作网站只用最简单的、入门级的HTML、CSS、JavaScript，哪怕进阶一点也只是使用了Vue，像Hexo这种写好Markdown文件，就会自动帮你生成带有目录、分类、标签和精美排版的完整网页，甚至能自动帮你部署在Github Pages上，说实话，太新奇了，老师在上课时甚至没有提起过这种玩意，好用！以后我估计会花更多的空余时间在研究这些新奇的东西上，太有意思了。</p>]]></content>
     
     
     <categories>
